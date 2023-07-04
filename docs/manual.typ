@@ -1,3 +1,4 @@
+//#import "../algo.typ": *
 #import "algo.typ": *
 
 #let version = "1.0.0"
@@ -54,7 +55,7 @@
   #set par(leading: 0.8em)
   #text(20pt)[*The `typst-algo` package.*]\
   #text(14pt)[_Typeset algorithms in Typst._]\
-  Hugo #smallcaps[Salou] --- #todo[Insert link here]\
+  Hugo #smallcaps[Salou] --- #link("https://github.com/hugo-s29/typst-algo")[https:/\/github.com/hugo-s29/typst-algo]\
   (last documentation update : #datetime.today().display())
 ]
 
